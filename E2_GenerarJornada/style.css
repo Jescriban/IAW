@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19-oct-2022, 16:28:07
+    Author     : adminwindows
+*/
+
+#tablaFormato {
+    border: 3px solid black;
+}
+img {
+     max-width: 10%;
+    height: auto;
+}
+#locales {
+    text-align: right;
+}
+#visitantes {
+    text-align: left;
+}
+#goles {
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: black;
+    color: white;
+}
+td {
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-size: 30px;
+}
