@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>INTRODUCE LOS DATOS DEL SEGURO</h1>
+            <form action="./E3_calculaPoliza.php" method="POST">
+                <fieldset>
+                    <legend>TOMADOR</legend>
+                    <label for="nombre">NOMBRE</label>
+                    <input id="nombre" type="text" name="nombre" value="Jaime" required>
+                    <br/>
+                    <label for="añoCarnet">año de obtención del carnet</label>
+                    <input id="añoCarnet" type="number" name="añoCarnet" value="1985" required>
+                    <br/>
+                    <label>SEXO</label><br/>
+                    <input type="radio" name="sexo" value="mujer" checked id="mujer">
+                    <label for="mujer">MUJER</label>
+                    <input type="radio" name="sexo" value="hombre" id="hombre">
+                    <label for="hombre">HOMBRE</label><br/>
+                </fieldset> 
+                <fieldset>
+                    <legend>VEHICULO</legend>
+                    <label for="matricula">Matrícula</label>
+                    <input id="matricula" type="text" name="matricula" value="7654CHG" required>
+                    <br/>
+                    <label for="añoMatricula">año de matriculación</label>
+                    <input id="añoMatricula" type="number" name="añoMatricula" value="1999" required>
+                    <br/>
+                    <label>Tipo de combustible</label>
+                        <select size="1" name="tipoCombustible">
+                            <option value="electrico" selected>Eléctrico</option>
+                            <option value="gasolina">Gasolina</option>
+                            <option value="diesel">Diésel</option>
+                            <option value="gaslicuado">Gas Licuado</option>
+                        </select>
+                </fieldset> 
+                <fieldset>
+                    <legend>MODALIDAD</legend>
+                    <label>Tipo de seguro</label><br/>
+                    <input type="radio" name="tipoSeguro" value="basico" checked id="basico">
+                    <label for="basico">Básico</label>
+                    <input type="radio" name="tipoSeguro" value="intermedio" id="intermedio">
+                    <label for="intermedio">Intermedio</label>
+                    <input type="radio" name="tipoSeguro" value="todoriesgo" id="todoRiesgo">
+                    <label for="todoRiesgo">Todo riesgo</label><br/>
+                </fieldset>
+                <input type="submit" value="CALCULAR"/>
+            </form>
+        </div>
+    </body>
+</html>

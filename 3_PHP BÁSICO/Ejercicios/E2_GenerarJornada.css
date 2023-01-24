@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20-oct-2022, 14:23:33
+    Author     : jaime
+*/
+/*Hoja de estilos vinculada al documento "E2_GenerarJornada.php"*/
+
+table#tablaApartadoD {
+    border: black 4px solid;
+    width: 500px;
+    height: 100px;
+    border-collapse: collapse;
+    border-spacing: 10px 5px;
+    font-family: Arial;
+}
+
+table#tablaApartadoD td{
+    text-align: right;
+    border-bottom: RGB(240,237,237) 2px solid;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+table#tablaApartadoD td.visitantes {
+    text-align: left;
+}
+
+table#tablaApartadoD td.resultadosgoles {
+    background-color: RGB(86,88,92);
+    color: RGB(255,255,255);
+    font-weight: bold;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    border-bottom: RGB(86,88,92) 2px solid;
+}
+
