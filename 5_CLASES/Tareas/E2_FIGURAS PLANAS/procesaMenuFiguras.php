@@ -3,6 +3,6 @@
 if (isset($_GET['figura'])){
     //llamo al php apropiado mediante include
     $figura = $_GET['figura'].'.html';
-    $figura = './Pide'.$figura;
+    $figura = './pide'.$figura;
     include $figura;
 }
