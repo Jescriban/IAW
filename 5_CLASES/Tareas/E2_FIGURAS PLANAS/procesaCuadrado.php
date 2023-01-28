@@ -4,11 +4,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
  */
-require './clases/Triangulo.php';
-if (!empty($_POST['base']) && !empty($_POST['altura'])) {
-    echo '<h2>RESULTADOS DEL TRIANGULO</h2>';
-    $miTriangulo = new Triangulo($_POST['base'], $_POST['altura']);
-    echo $miTriangulo->ficha();
+
+require './clases/Cuadrado.php';
+if (!empty($_POST['lado'])) {
+    echo '<h2>RESULTADOS DEL CUADRADO</h2>';
+    $miCuadrado = new Cuadrado($_POST['lado']);
+    echo $miCuadrado->ficha();
     echo '<br><form action="menuFigurasPlanas.html"/>';
     echo '<input type="submit" value="VOLVER AL MENU"/>';
     echo '</form>';
