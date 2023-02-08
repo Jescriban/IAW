@@ -1,0 +1,11 @@
+subir una carpeta en la que se tenga un formulario de selección y un php que muestre el resultado.
+
+Propuestas posibles:
+
+1. Selecciona un cliente y muestra sus pedidos (p.e. fecha y empleado, bonus: el nombre del empleado)
+
+2. Selecciona un pedido y muestra la línea de pedido (producto, cantidad, bonus: nombre del producto)
+
+3. Selecciona una Categoría y aparece la lista de productos (idProducto, Nombre, bonus: nombre del proveedor)
+
+4. Dado un empleado, lista de empleados que son sus súbditos (él es su jefe)
